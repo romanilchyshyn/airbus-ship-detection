@@ -1,7 +1,5 @@
-semantic segmentation model
-
- {{function_node __wrapped__ReduceDataset_Targuments_0_Tstate_1_output_types_1_device_/job:localhost/replica:0/task:0/device:CPU:0}} jpeg::Uncompress failed. Invalid JPEG data or crop window.
-	 [[{{node DecodeJpeg}}]] [Op:ReduceDataset] name: 
-
-
-# we can sample csv to have equal number of images with and without ships
+- investigate classes
+- extract decode pixels to preprocessing
+- prepare small dataset with cp images and build labels
+- prepare validation ds
+- make it possible to try in coolab
