@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-- Working environment expeccts that dataset is downloaded and unarchived in the same directory as the notebooks into `data` directory.
+- Working environment expects that dataset is downloaded and unarchived in the same directory as the notebooks into `data` directory.
 - Run `pip install -r requirements.txt` to install all the necessary packages.
 
 ### Notebooks and strcuture
@@ -12,7 +12,7 @@ Project contains bunch of notebooks:
 [explore.ipynb](explore.ipynb) - contains exploratory data analysis of the dataset, sanity checks. 
 Also, it samples the dataset to create a smaller datasets of sizes `s` (20), `m` (200), `l` (1000). Preprocessed csv files are saved in `data_p` directory. All the next notebooks use these preprocessed files.
 
-[preprocess.ipynb](preprocess.ipynb) - contains csv preprocessing. It maps `EncodedPixels` to corresponding mask images. Images put into `data_p` subdirectories directory.
+[preprocess.ipynb](preprocess.ipynb) - contains csv preprocessing. It maps `EncodedPixels` to corresponding mask images. Images put into `data_p` subdirectories.
 
 [dataset.ipynb](dataset.ipynb) - contains dataloader for the dataset. It also contains some visualization of the dataset.
 
