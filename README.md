@@ -1,5 +1,7 @@
 # Task: Airbus Ship Detection
 
+[Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection)
+
 ### Prerequisites
 
 - Working environment expects that dataset is downloaded and unarchived in the same directory as the notebooks into `data` directory.
